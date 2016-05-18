@@ -3,12 +3,12 @@ The Advance Admin Enhance Module Design For Pixmicat! Imageboard System
 
 What is this?
 -------------
-Admin Enhance Module Design For Pixmicat! Imageboard System
-Support WordFilter
-Support WordFilter for pushpost (mod_pushpost) 
-Support image blocked function by MD5 check
-Add user blocked function by matching WordFilter
-Add user blocked function by matching image MD5
+Admin Enhance Module Design For Pixmicat! Imageboard System<br>
+Support WordFilter<br>
+Support WordFilter for pushpost (mod_pushpost)<br>
+Support image blocked function by MD5 check<br>
+Add user blocked function by matching WordFilter<br>
+Add user blocked function by matching image MD5<br>
 
 Requirements
 ------------
