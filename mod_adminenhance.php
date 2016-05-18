@@ -5,7 +5,7 @@ class mod_adminenhance extends ModuleHelper {
 	 private $imgfile = '.ht_List_IMG';
 	 private $wordfile = '.ht_List_WORD';
 	 // 紀錄如果出現過濾內容，將利用 cookie 封鎖多久(小時)
-	 private $cookiefile = '.ht_LIST_BANNEDTIME';
+	 private $cookiefile = '.ht_List_BANTIME';
 
 	public function __construct($PMS) {
 		parent::__construct($PMS);
