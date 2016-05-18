@@ -16,8 +16,8 @@ Pixmicat!-PIO 8th.Release.3 or above
 
 Motivation to Develop this Module
 ---------
+跟智障還有廚講理是沒用的這點聰明人都知道 
 ![ScreenShot](http://i.imgur.com/uVkyMfN.gif)
-跟智障還有廚講理是沒用的這點聰明人都知道
 
 Resources
 ---------
