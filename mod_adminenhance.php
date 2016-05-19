@@ -1,11 +1,15 @@
 <?php
+//在此特別明謝 ssk7833(North)協助開發此模組，為了蔚藍而潔淨的網路世界出了一份力
 class mod_adminenhance extends ModuleHelper {
 	 private $mypage;
 	 private $ipfile = '.ht_List_IP';
-	 private $imgfile = '.ht_List_IMG';
-	 private $wordfile = '.ht_List_WORD';
-	 // 紀錄如果出現過濾內容，將利用 cookie 封鎖多久(小時)
+	 // IP 封鎖清單
+	 private $imgfile = '.ht_List_IMG_MD5';
+     // 圖片封鎖清單(使用 MD5 識別)
+	 private $wordfile = '.ht_List_WORDFILTER';
+	 // 關鍵字封鎖清單
 	 private $cookiefile = '.ht_List_BANTIME';
+     // 紀錄如果命中過濾內容，將利用 cookie 封鎖多久(小時)
 
 	public function __construct($PMS) {
 		parent::__construct($PMS);
@@ -187,6 +191,7 @@ function add(form){
 			if($_GET['action'] == 'listwords') {
 				$dat = '';
 				$dat .= '<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />WordFilter Access Denied <br/>想偷看關鍵字過濾清單吼？不給你看啦(ﾟ∀。)';
+                //隱藏關鍵字過濾清單給想查詢的一般使用者
 				echo $dat;
 				return;
 			}
@@ -337,8 +342,8 @@ function bannedTime(form){
 <hr/>
 <div id="HELP"><pre>
 
-HOST-封鎖特定位址或網域名稱，位址或網域名稱皆可，接受格式：
-- 完全相符 | 萬用字元 | 正規表達式，使用 Regular Expression 進行匹配，使用斜線將表達式括住
+HOST-封鎖特定位址或網域名稱，位址或網域名稱皆可，接受 | 完全相符 | 萬用字元 | 正規表達式
+- 使用 Regular Expression 進行匹配，使用斜線將表達式括住
 - CIDR Notation，使用 Classless Addressing | CIDR，以一段位址位置加上遮罩來劃分
 - EXP-設定封鎖天數，到期可自動解鎖，永久封鎖則設為零
 
