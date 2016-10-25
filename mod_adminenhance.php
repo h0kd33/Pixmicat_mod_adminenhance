@@ -16,10 +16,10 @@ class mod_adminenhance extends ModuleHelper {
 		$this->mypage = $this->getModulePageURL();
 	}
 	public function getModuleName() {
-		return $this->moduleNameBuilder('AMs');
+		return $this->moduleNameBuilder('Advanced Aministration Enhance Module / AAE');
 	}
 	public function getModuleVersionInfo() {
-		return '7th, North Modified, 20160518';
+		return '7th, Fenrisulfr Customize Modified, 20161025';
 	}
 
 	// 從資料檔抓出資料

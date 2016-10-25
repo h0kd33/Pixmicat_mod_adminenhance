@@ -6,6 +6,7 @@ What is this?
 Admin Enhance Module Design For Pixmicat! Imageboard System<br>
 Support wordfilter<br>
 Support wordfilter for pushpost (mod_pushpost)<br>
+Support wordfilter for pushpost (mod_pushpost) by matching wordfilter and cookie<br>
 Support user banned function by matching wordfilter<br>
 Support image blocked function by MD5 check<br>
 Support user banned function by matching image MD5<br>
