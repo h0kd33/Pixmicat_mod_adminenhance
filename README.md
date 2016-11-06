@@ -16,37 +16,37 @@ However, due to the blocked function, can't change banned time for the user alre
 
 Deny a visitor which using
 ------------
-Proxy - Anonymous Proxy
-Proxy - Public VPN
-Proxy - Tor Server
-ccTLD - SouthKorea(Asia)
-ccTLD - Thailand(Asia)
-ccTLD - Vietnam(Asia)
-ccTLD - Armenia(European)
-ccTLD - Bulgaria(European)
-ccTLD - Cyprus(European)
-ccTLD - Czech(European)
-ccTLD - Denmark(European)
-ccTLD - Estonia(European)
-ccTLD - Finland(European)
-ccTLD - France(European)
-ccTLD - Germany(European)
-ccTLD - Hungary(European)
-ccTLD - Iceland(European)
-ccTLD - Latvia(European)
-ccTLD - Luxembourg(European)
-ccTLD - Moldova(European)
-ccTLD - Montenegro(European)
-ccTLD - Netherlands(European)
-ccTLD - Poland(European)
-ccTLD - Romania(European)
-ccTLD - Spain(European)
-ccTLD - Sweden(European)
-ccTLD - Switzerland(European)
-ccTLD - UK(European)
-ccTLD - Chile(South America)
-ccTLD - Australia(Oceania)
-ccTLD - Palau(Oceania)
+Proxy - Anonymous Proxy<br>
+Proxy - Public VPN<br>
+Proxy - Tor Server<br>
+ccTLD - SouthKorea(Asia)<br>
+ccTLD - Thailand(Asia)<br>
+ccTLD - Vietnam(Asia)<br>
+ccTLD - Armenia(European)<br>
+ccTLD - Bulgaria(European)<br>
+ccTLD - Cyprus(European)<br>
+ccTLD - Czech(European)<br>
+ccTLD - Denmark(European)<br>
+ccTLD - Estonia(European)<br>
+ccTLD - Finland(European)<br>
+ccTLD - France(European)<br>
+ccTLD - Germany(European)<br>
+ccTLD - Hungary(European)<br>
+ccTLD - Iceland(European)<br>
+ccTLD - Latvia(European)<br>
+ccTLD - Luxembourg(European)<br>
+ccTLD - Moldova(European)<br>
+ccTLD - Montenegro(European)<br>
+ccTLD - Netherlands(European)<br>
+ccTLD - Poland(European)<br>
+ccTLD - Romania(European)<br>
+ccTLD - Spain(European)<br>
+ccTLD - Sweden(European)<br>
+ccTLD - Switzerland(European)<br>
+ccTLD - UK(European)<br>
+ccTLD - Chile(South America)<br>
+ccTLD - Australia(Oceania)<br>
+ccTLD - Palau(Oceania)<br>
 
 Requirements
 ------------
