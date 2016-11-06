@@ -10,7 +10,6 @@ tor-*-readme	Tor	1464758802	0
 *.ori.*	Tor	1464758802	0
 *onion*	Tor	1464758802	0
 *.onion	Tor	1464758802	0
-*vpn*	VPN		1464758802	0
 *proxy*	Proxy	1464758802	0
 *.proxy.*	Proxy	1464758802	0
 *.kr	AS-SouthKorea	1478195685	0
