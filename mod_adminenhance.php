@@ -1,5 +1,8 @@
 <?php
+
 //在此特別明謝 ssk7833(North)協助開發此模組，為了蔚藍而潔淨的網路世界出了一份力
+ini_set('memory_limit', '128M');
+//將記憶體限制設定為最大，預防超大型過濾清單輸出異常
 class mod_adminenhance extends ModuleHelper {
 	 private $mypage;
 	 private $ipfile = '.ht_List_IP';

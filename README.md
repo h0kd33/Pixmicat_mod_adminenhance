@@ -1,64 +1,35 @@
-The Advance Admin Enhance Module Design For Pixmicat! Imageboard System
+針對 Pixmicat！ 圖咪貓貼圖版程式的增強型管理套件 
 ========
 
-What is this?
+這是什麼？
 -------------
-Admin Enhance Module Design For Pixmicat! Imageboard System<br>
-Support wordfilter<br>
-Support wordfilter for pushpost (mod_pushpost)<br>
-Support wordfilter for pushpost (mod_pushpost) by matching wordfilter and cookie<br>
-Support user banned function by matching wordfilter<br>
-Support image blocked function by MD5 check<br>
-Support user banned function by matching image MD5<br>
-Support user banned function by using cookie<br>
-Enable customize user blocked time<br>
-However, due to the blocked function, can't change banned time for the user already banned<br>
+針對 Pixmicat！ 圖咪貓貼圖版程式的增強型管理套件 <br>
+<br>
+支援文字過濾（WordFilter ）功能<br>
+支援文字過濾（WordFilter ）功能觸發使用者封鎖<br>
+支援推文模組 （mod_pushpost）的文字過濾功能<br>
+支援推文模組 （mod_pushpost）的發言封鎖功能，藉由儲存在用戶端之資料（Cookie）<br>
+支援圖片封鎖（MD5 Confirm ）功能<br>
+支援圖片封鎖（MD5 Confirm ）功能觸發使用者封鎖<br>
+支援圖片封鎖（MD5 Confirm ）功能觸發使用者封鎖，藉由儲存在用戶端之資料（Cookie）<br>
+可自定義使用者封鎖時間<br>
+<br>
+請注意，因使用儲存在用戶端之資料（Cookie）執行封鎖功能，因此無法更改已封鎖使用者的封鎖時間<br>
+<br>
+支援藉由符合網域與 IP 位址的使用者封鎖功能<br>
+提供部分以 CIDR 規則撰寫的國家網域列表<br>
 
-Deny a visitor which using
+系統需求
 ------------
-Proxy - Anonymous Proxy<br>
-Proxy - Public VPN<br>
-Proxy - Tor Server<br>
-ccTLD - SouthKorea(Asia)<br>
-ccTLD - Thailand(Asia)<br>
-ccTLD - Vietnam(Asia)<br>
-ccTLD - Armenia(European)<br>
-ccTLD - Bulgaria(European)<br>
-ccTLD - Cyprus(European)<br>
-ccTLD - Czech(European)<br>
-ccTLD - Denmark(European)<br>
-ccTLD - Estonia(European)<br>
-ccTLD - Finland(European)<br>
-ccTLD - France(European)<br>
-ccTLD - Germany(European)<br>
-ccTLD - Hungary(European)<br>
-ccTLD - Iceland(European)<br>
-ccTLD - Latvia(European)<br>
-ccTLD - Luxembourg(European)<br>
-ccTLD - Moldova(European)<br>
-ccTLD - Montenegro(European)<br>
-ccTLD - Netherlands(European)<br>
-ccTLD - Poland(European)<br>
-ccTLD - Romania(European)<br>
-ccTLD - Spain(European)<br>
-ccTLD - Sweden(European)<br>
-ccTLD - Switzerland(European)<br>
-ccTLD - UK(European)<br>
-ccTLD - Chile(South America)<br>
-ccTLD - Australia(Oceania)<br>
-ccTLD - Palau(Oceania)<br>
+需要 Pixmicat!-PIO 8th.Release.3  之版本或以上
 
-Requirements
-------------
-Pixmicat!-PIO 8th.Release.3 or above
-
-Motivation to Develop this Module
+開發目的
 ---------
-跟智障還有廚講理是沒用的這點聰明人都知道，所以這種模組是必要的<br>
+跟智障還有鬧板廚講理是沒用的這點聰明人都知道，所以這種模組是必要的<br>
 ![ScreenShot](http://i.imgur.com/uVkyMfN.gif)
 
-Resources
+資源
 ---------
-- Special Thanks & Develop Support https://github.com/ssk7833
-- Origin Admin Enhance Module https://github.com/scribetw/pixmicat_modules/tree/develop/mod_adminenhance
-- Pixmicat in GitHub: https://github.com/scribetw/pixmicat/
+- 特別感謝 & 開發協力 https://github.com/ssk7833
+- 管理套件之參照 https://github.com/scribetw/pixmicat_modules/tree/develop/mod_adminenhance
+- 在 GitHub 了解圖咪貓貼圖版程式 https://github.com/scribetw/pixmicat/
