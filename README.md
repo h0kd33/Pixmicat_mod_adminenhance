@@ -7,8 +7,8 @@
 <br>
 支援文字過濾（WordFilter ）功能<br>
 支援文字過濾（WordFilter ）功能觸發使用者封鎖<br>
-支援推文模組 （mod_pushpost）的文字過濾功能<br>
-支援推文模組 （mod_pushpost）的發言封鎖功能，藉由儲存在用戶端之資料（Cookie）<br>
+支援推文模組（mod_pushpost）的文字過濾功能<br>
+支援推文模組（mod_pushpost）的發言封鎖功能，藉由儲存在用戶端之資料（Cookie）<br>
 支援圖片封鎖（MD5 Confirm ）功能<br>
 支援圖片封鎖（MD5 Confirm ）功能觸發使用者封鎖<br>
 支援圖片封鎖（MD5 Confirm ）功能觸發使用者封鎖，藉由儲存在用戶端之資料（Cookie）<br>
