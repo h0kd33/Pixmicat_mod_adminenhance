@@ -2,7 +2,7 @@
 
 // 這個檔案是位在 pixmicat/config.php 的設定檔案之指定行列
 // 完整檔案請參閱 https://github.com/pixmicat/pixmicat/blob/develop/config.php#L93 
-// 請用這份檔案取代該部分，下列的註解請刪除
+// 請用這份檔案取代該部分，下列的註解可刪除
 
 // 封鎖設定
 define("BAN_CHECK", 1);

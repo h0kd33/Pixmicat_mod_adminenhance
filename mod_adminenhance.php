@@ -193,7 +193,7 @@ function add(form){
 		if(isset($_GET['action'])) {
 			if($_GET['action'] == 'listwords') {
 				$dat = '';
-				$dat .= '<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />WordFilter Access Denied <br/>想偷看關鍵字過濾清單吼？不給你看啦(ﾟ∀。)';
+				$dat .= '<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />WordFilter Access Denied <br/>想偷看關鍵字過濾清單吼？不給你看啦';
                 //隱藏關鍵字過濾清單給想查詢的一般使用者
 				echo $dat;
 				return;
@@ -276,7 +276,7 @@ NOTE- <input type="text" name="newdesc"/>
 <div id="imgconfig"><input type="hidden" name="operate" value="img"/>
 <br />
 MD5- <input type="text" name="newdata"/>
-NOTE- <input type="text" name="newdesc" value="鬧版"/>
+NOTE- <input type="text" name="newdesc" value="註解"/>
 <input type="hidden" name="newperiod" value="0"/>
 <input type="submit" value="ADD" onclick="return add(this.form);" /><br/><br/>
 <div class="dos_list_short">
@@ -295,7 +295,7 @@ NOTE- <input type="text" name="newdesc" value="鬧版"/>
 <div id="wordconfig"><input type="hidden" name="operate" value="word"/>
 <br />
 WordFilter- <input type="text" name="newdata"/>
-NOTE- <input type="text" name="newdesc" value="鬧版"/>
+NOTE- <input type="text" name="newdesc" value="註解"/>
 <input type="submit" value="ADD" onclick="return add(this.form);" /><br/><br/>
 <div class="dos_list_short">
 <table border="0" width="100%">
@@ -311,7 +311,7 @@ NOTE- <input type="text" name="newdesc" value="鬧版"/>
 </form>
 <form action="'.$this->getModulePageURL().'" method="post">
 <div id="wordconfig"><input type="hidden" name="operate" value="bannedTime"/>
-<br />
+<br/>
 封鎖時間（擇一輸入）：天- <input type="number" name="byDay"/>
 小時- <input type="number" name="byHour"/>
 <input type="hidden" name="newdata"/>
@@ -326,7 +326,6 @@ $dat .= '</span> 小時</div>
 // <![CDATA[
 var ElembyDay = document.querySelector("input[name=byDay]");
 var ElembyHour = document.querySelector("input[name=byHour]");
-// 點擊其中一個時，另一個將會清除
 ElembyDay.addEventListener(\'focus\', function() { ElembyHour.value = \'\'; });
 ElembyHour.addEventListener(\'focus\', function() { ElembyDay.value = \'\'; });
 
@@ -343,15 +342,9 @@ function bannedTime(form){
 // ]]>
 </script>
 <hr/>
-<div id="HELP"><pre>
-
-HOST-封鎖特定位址或網域名稱，位址或網域名稱皆可，接受 | 完全相符 | 萬用字元 | 正規表達式
-- 使用 Regular Expression 進行匹配，使用斜線將表達式括住
-- CIDR Notation，使用 Classless Addressing | CIDR，以一段位址位置加上遮罩來劃分
-- EXP-設定封鎖天數，到期可自動解鎖，永久封鎖則設為零
-
-WordFilter-關鍵字詞過濾，完全相符才能過濾
-</pre></div></div>';
+<div id="HELP"><front font-size=1.0rem;>
+說明文件請參閱<a href="https://github.com/pixmicat/pixmicat_modules/blob/develop/mod_adminenhance/mod_adminenhance.php#L259">Pixmicat | Pixmicat_Modules | GitHub</a>
+</front></div></div>';
 		foot($dat);
 		echo $dat;
 	}
