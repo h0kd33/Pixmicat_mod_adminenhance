@@ -1,7 +1,7 @@
-#針對 Pixmicat！ 圖咪貓貼圖版程式的增強型管理套件 
+針對 Pixmicat！ 圖咪貓貼圖版程式的增強型管理套件 
 ========
 <br>
-##這是什麼？
+這是什麼？
 -------------
 針對 Pixmicat！ 圖咪貓貼圖版程式的增強型管理套件 <br>
 <br>
@@ -19,7 +19,7 @@
 <br>
 提供指定 DNSBL 伺服器清單來對付使用公開代理伺服器（ OpenProxy ）與洋蔥路由器（ The Onion Router ）的惡意使用者<br>
 <br>
-##檔案說明
+檔案說明
 ---------
 config.php | 針對 Pixmicat！ 預設的封鎖功能與 DNSBL 相關設定作更改<br>
 DENY-INFO.md | 建議的封鎖資料 <br>
@@ -27,16 +27,16 @@ mod_adminenhance.php | 增強型管理套件<br>
 mod_pushpost.php | 增強型推文模組<br>
 README.md | 說明文件<br>
 <br>
-##系統需求
+系統需求
 ------------
 需要 Pixmicat!-PIO 8th.Release.3 之版本或以上<br>
 <br>
-##開發目的
+開發目的
 ---------
 跟智障還有鬧板廚講理是沒用的這點聰明人都知道，所以這種模組是必要的<br>
 ![ScreenShot](http://i.imgur.com/uVkyMfN.gif)<br>
 <br>
-##資源
+資源
 ---------
 - 特別感謝 & 開發協力 https://github.com/ssk7833<br>
 - 管理套件之參照 https://github.com/scribetw/pixmicat_modules/tree/develop/mod_adminenhance<br>
