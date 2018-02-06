@@ -1,8 +1,8 @@
 <?php
 
 //在此特別明謝 ssk7833(North)協助開發此模組，為了蔚藍而潔淨的網路世界出了一份力
-ini_set('memory_limit', '128M');
-//將記憶體限制設定為最大，預防超大型過濾清單輸出異常
+ini_set('memory_limit', '64M');
+//將記憶體限制設定為 64MB，預防大型過濾清單輸出異常
 class mod_adminenhance extends ModuleHelper {
 	 private $mypage;
 	 private $ipfile = '.ht_List_IP';
@@ -193,7 +193,7 @@ function add(form){
 		if(isset($_GET['action'])) {
 			if($_GET['action'] == 'listwords') {
 				$dat = '';
-				$dat .= '<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />WordFilter Access Denied <br/>想偷看關鍵字過濾清單吼？不給你看啦';
+				$dat .= '<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />WordFilter Access Denied';
                 //隱藏關鍵字過濾清單給想查詢的一般使用者
 				echo $dat;
 				return;
@@ -250,7 +250,7 @@ function add(form){
 		$dat = '';
 		$this->hookModuleMethod('Head', array(&$this, '_hookHeadCSS'));
 		head($dat);
-		$dat .= '<div class="bar_admin">HOST | MD5 | WordFilter | BannedTime </div>
+		$dat .= '<div class="bar_admin">Filter </div>
 <div id="content">
 <br/>
 <form action="'.$this->getModulePageURL().'" method="post">

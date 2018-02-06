@@ -18,11 +18,12 @@
 提供指定 DNSBL 伺服器清單來對付使用公開代理伺服器（ OpenProxy ）與洋蔥路由器（ The Onion Router ）的惡意使用者  
 
 ## 檔案說明
-config.php | 針對 Pixmicat！ 預設的封鎖功能與 DNSBL 相關設定作更改  
 DENY-INFO | 建議的封鎖資料  
+README.md | 說明文件  
+config.php | 針對 Pixmicat！ 預設的封鎖功能與 DNSBL 相關設定作更改  
+dnsbl.php |  Pixmicat！ 中關於 DNSBL 等封鎖功能的程式碼
 mod_adminenhance.php | 增強型管理套件  
 mod_pushpost.php | 增強型推文模組  
-README.md | 說明文件  
 
 ## 系統需求
 需要 Pixmicat!-PIO 8th.Release.3 之版本或以上  
